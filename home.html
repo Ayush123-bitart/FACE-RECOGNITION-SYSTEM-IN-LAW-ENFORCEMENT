@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home – Face Recognition</title>
+<link rel="stylesheet" href="style.css"><!-- optional external css -->
+<style>
+/* ---------- Base ---------- */
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+  background:#f0f4f8; color:#0f1724; line-height:1.6;
+}
+
+/* ---------- Hero Banner ---------- */
+.hero{
+  background:linear-gradient(135deg,#0d6efd 0%, #6610f2 100%);
+  color:#fff;
+  text-align:center;
+  padding:80px 20px;
+  border-bottom-left-radius:50% 12%;
+  border-bottom-right-radius:50% 12%;
+  box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+.hero h1{font-size:2.8rem;margin-bottom:18px;font-weight:700;}
+.hero p{font-size:1.1rem;max-width:720px;margin:0 auto;opacity:0.95;}
+
+/* ---------- Features ---------- */
+.features{
+  max-width:1100px;
+  margin:60px auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+  padding:0 20px;
+}
+.feature-card{
+  background:#fff;
+  border-radius:16px;
+  padding:30px 25px;
+  text-align:center;
+  box-shadow:0 6px 18px rgba(0,0,0,0.1);
+  transition:.3s;
+}
+.feature-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 12px 28px rgba(0,0,0,0.15);
+}
+.feature-card .icon{
+  font-size:42px;
+  margin-bottom:18px;
+  color:#0d6efd;
+}
+.feature-card h3{
+  margin-bottom:12px;
+  font-size:1.3rem;
+  color:#0f1724;
+}
+.feature-card p{color:#333;font-size:0.95rem;}
+
+/* ---------- Footer ---------- */
+footer{
+  background:#0f1724;
+  color:#cfe6ff;
+  text-align:center;
+  padding:25px 15px;
+  margin-top:60px;
+  font-size:0.9rem;
+}
+</style>
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <h1>Welcome to the Face Recognition Project</h1>
+  <p>
+    A demonstration of how <strong>AI-powered facial recognition</strong> 
+    can support law enforcement with real-time monitoring, 
+    live alerts and investigation assistance.
+  </p>
+</section>
+
+<!-- FEATURE CARDS -->
+<section class="features">
+  <div class="feature-card">
+    <div class="icon">📷</div>
+    <h3>Live Camera Feeds</h3>
+    <p>Real-time video streams continuously monitored to detect and identify faces of interest.</p>
+  </div>
+
+  <div class="feature-card">
+    <div class="icon">⚡</div>
+    <h3>Instant Alerts</h3>
+    <p>Automatic notifications when a match is found against the law-enforcement database.</p>
+  </div>
+
+  <div class="feature-card">
+    <div class="icon">📊</div>
+    <h3>Detailed Statistics</h3>
+    <p>Interactive charts show hourly detections, match ratios and active cases.</p>
+  </div>
+
+  <div class="feature-card">
+    <div class="icon">🛡️</div>
+    <h3>Secure Data Handling</h3>
+    <p>All facial data is encrypted and handled following strict privacy guidelines.</p>
+  </div>
+</section>
+
+<footer>
+  Developed for MCA Project – Ajay Kumar Garg Engineering College<br>
+  Team: Amit Dubey · Ayush Tiwari · Anshul Shakya
+</footer>
+
+</body>
+</html>
